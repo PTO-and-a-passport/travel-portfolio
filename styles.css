@@ -541,6 +541,55 @@ ul { list-style: none; }
   pointer-events: none;
 }
 
+/* TikTok link cards */
+.tiktok-card {
+  display: block;
+}
+
+.tiktok-play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  z-index: 2;
+  color: white;
+  transition: var(--transition);
+}
+
+.tiktok-play::before {
+  content: '';
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  z-index: -1;
+}
+
+.tiktok-play span {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  margin-top: 20px;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: var(--transition);
+}
+
+.tiktok-card:hover .tiktok-play span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tiktok-card:hover .tiktok-play::before {
+  width: 72px;
+  height: 72px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
 /* ========================================
    Services
 ======================================== */
