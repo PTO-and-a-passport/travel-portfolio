@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noel Davison | Travel UGC Creator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Noel Davison</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact" class="nav-cta">Let's Work Together</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-bg" style="background-image: url('Content/New/kozano-sunset.png');"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-label">Travel UGC Creator</p>
+      <h1 class="hero-title">Authentic stories<br>from every corner<br>of the world</h1>
+      <p class="hero-subtitle">I create scroll-stopping travel content that connects brands with wanderlust-driven audiences.</p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline-light">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="Content/Destinations/greece%20me%203%20(1).jpg" alt="Noel in Greece" class="about-photo">
+        </div>
+        <div class="about-content">
+          <p class="section-label">About Me</p>
+          <h2 class="section-title">Hey, I'm Noel</h2>
+          <p class="about-text">I'm a travel UGC creator who turns trips into compelling visual stories. Whether it's a boutique hotel in Greece, a secret beach in Portofino, or snorkeling in Cozumel, I craft authentic content that makes audiences feel like they're right there.</p>
+          <p class="about-text">My content blends cinematic visuals with genuine storytelling &mdash; because the best travel content doesn't just show a place, it makes you feel something.</p>
+          <div class="about-details">
+            <div class="detail">
+              <span class="detail-icon">&#9992;</span>
+              <div>
+                <strong>Based in</strong>
+                <p>Wherever the next flight takes me</p>
+              </div>
+            </div>
+            <div class="detail">
+              <span class="detail-icon">&#9998;</span>
+              <div>
+                <strong>Specializing in</strong>
+                <p>Hotels, Destinations, Food & Drink, Adventure</p>
+              </div>
+            </div>
+            <div class="detail">
+              <span class="detail-icon">&#10003;</span>
+              <div>
+                <strong>Platforms</strong>
+                <p>TikTok, Instagram Reels, YouTube Shorts, Pinterest</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <p class="section-label">Portfolio</p>
+      <h2 class="section-title">Content That Converts</h2>
+      <p class="section-subtitle">A selection of recent work across hotels, destinations, and travel experiences.</p>
+
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="hotels">Hotels</button>
+        <button class="filter-btn" data-filter="destinations">Destinations</button>
+        <button class="filter-btn" data-filter="food">Food & Drink</button>
+        <button class="filter-btn" data-filter="adventure">Adventure</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <!-- Hotels -->
+        <div class="portfolio-item" data-category="hotels">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Hotels/ssstik.io_1778622602920.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Italy Airbnb Tour</h3>
+              <p>Hotel &middot; Italy</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="hotels">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <img src="Content/New/pool-and-palms.png" alt="Kozano Suites private pool">
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Photo</span>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Private Pool</h3>
+              <p>Kozano Suites &middot; Greece</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="hotels">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <img src="Content/New/kozano-loungers.png" alt="Kozano Suites poolside loungers">
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Photo</span>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Poolside Loungers</h3>
+              <p>Kozano Suites &middot; Greece</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Destinations -->
+        <div class="portfolio-item" data-category="destinations">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Destinations/Giza%20Pyramids.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Giza Pyramids</h3>
+              <p>Destination &middot; Egypt</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="destinations">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Destinations/Tulum%20Ruins.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Tulum Ruins</h3>
+              <p>Destination &middot; Mexico</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="destinations">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Destinations/Can%20you%20keep%20a%20secret%20No%20secret%20beach%20in%20Portofino%20is%20really%20secret.%20Are%20they%20still%20worth%20it%20W.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Secret Beaches</h3>
+              <p>Destination &middot; Portofino, Italy</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="destinations">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Destinations/Mexico%20Top%203%20compressed.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Top 3 Mexico</h3>
+              <p>Destination &middot; Mexico</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Food & Drink -->
+        <div class="portfolio-item" data-category="food">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Food%20%26%20Drink/ssstik.io_1778626393107.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Cooking Class in Greece</h3>
+              <p>Culinary &middot; Greece</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="food">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Food%20%26%20Drink/VID_20260320_185208_499_bsl.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Local Flavors</h3>
+              <p>Culinary &middot; Travel Dining</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Adventure -->
+        <div class="portfolio-item" data-category="adventure">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Adventure/Snorkeling%20in%20Cozumel%20compressed.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Snorkeling in Cozumel</h3>
+              <p>Adventure &middot; Mexico</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="adventure">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Adventure/Cool%20Aunt%20Lore%20compressed.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Cool Aunt Lore</h3>
+              <p>Adventure &middot; Travel Life</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="adventure">
+          <div class="portfolio-card">
+            <div class="portfolio-media">
+              <video src="Content/Adventure/ssstik.io_1778626183676.mp4" muted loop playsinline preload="metadata"></video>
+              <div class="portfolio-overlay">
+                <span class="portfolio-type">Video</span>
+              </div>
+              <div class="play-indicator">&#9654;</div>
+            </div>
+            <div class="portfolio-info">
+              <h3>Adventure Vibes</h3>
+              <p>Adventure &middot; Exploration</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="section-label">Services</p>
+      <h2 class="section-title">What I Offer</h2>
+      <p class="section-subtitle">Flexible packages designed to give your brand authentic, high-performing travel content.</p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">&#127909;</div>
+          <h3>UGC Video Content</h3>
+          <p>Authentic, scroll-stopping short-form videos optimized for TikTok, Reels, and Shorts. Shot on location with natural lighting and real reactions.</p>
+          <ul class="service-features">
+            <li>15-60 second videos</li>
+            <li>Hook-driven storytelling</li>
+            <li>Platform-optimized formats</li>
+            <li>Raw footage included</li>
+          </ul>
+        </div>
+
+        <div class="service-card featured">
+          <div class="service-badge">Most Popular</div>
+          <div class="service-icon">&#128247;</div>
+          <h3>Full Content Package</h3>
+          <p>A complete content suite including video, photo, and written content tailored to your brand's voice and campaign goals.</p>
+          <ul class="service-features">
+            <li>3-5 UGC videos</li>
+            <li>10-15 styled photos</li>
+            <li>Captions & hashtag strategy</li>
+            <li>Usage rights included</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">&#127758;</div>
+          <h3>Destination Campaigns</h3>
+          <p>Multi-day content creation trips covering your destination from every angle. Perfect for tourism boards and hotel groups.</p>
+          <ul class="service-features">
+            <li>3-7 day content trips</li>
+            <li>Comprehensive content library</li>
+            <li>Behind-the-scenes content</li>
+            <li>Strategy consultation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="section-label">Get In Touch</p>
+          <h2 class="section-title">Let's Create Something Amazing</h2>
+          <p class="contact-text">Have a project in mind? I'd love to hear about it. Fill out the form or reach out on socials and I'll get back to you within 24 hours.</p>
+          <div class="contact-socials">
+            <a href="https://www.instagram.com/pto_and_a_passport" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              @pto_and_a_passport
+            </a>
+            <a href="https://www.tiktok.com/@pto_and_a_passport" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.46V13.2a8.16 8.16 0 005.58 2.17v-3.45a4.85 4.85 0 01-3.77-1.46V6.69h3.77z"/></svg>
+              @pto_and_a_passport
+            </a>
+            <a href="https://www.youtube.com/@PTO_and_a_passport" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              @PTO_and_a_passport
+            </a>
+            <a href="https://www.pinterest.com/PTO_and_a_passport" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641 0 12.017 0z"/></svg>
+              @PTO_and_a_passport
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="brand">Brand / Company</label>
+            <input type="text" id="brand" name="brand" placeholder="Your brand name">
+          </div>
+          <div class="form-group">
+            <label for="project">Tell me about your project</label>
+            <textarea id="project" name="project" rows="4" placeholder="What are you looking for? Budget, timeline, platforms..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-logo">Noel Davison</p>
+        <div class="footer-links">
+          <a href="https://www.tiktok.com/@pto_and_a_passport" target="_blank">TikTok</a>
+          <a href="https://www.instagram.com/pto_and_a_passport" target="_blank">Instagram</a>
+          <a href="https://www.youtube.com/@PTO_and_a_passport" target="_blank">YouTube</a>
+          <a href="https://www.pinterest.com/PTO_and_a_passport" target="_blank">Pinterest</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Noel Davison. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
