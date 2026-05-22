@@ -570,6 +570,11 @@ ul { list-style: none; }
   z-index: -1;
 }
 
+.tiktok-play svg {
+  position: relative;
+  z-index: 1;
+}
+
 .tiktok-play span {
   font-size: 0.8125rem;
   font-weight: 600;
@@ -577,6 +582,19 @@ ul { list-style: none; }
   opacity: 0;
   transform: translateY(4px);
   transition: var(--transition);
+}
+
+.tiktok-card .portfolio-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: var(--transition);
+  z-index: 1;
+}
+
+.tiktok-card:hover .portfolio-media::after {
+  background: rgba(0, 0, 0, 0.35);
 }
 
 .tiktok-card:hover .tiktok-play span {
